@@ -1,0 +1,195 @@
+@font-face {
+  font-family: 'NeueMontreal';
+  src: url('./assets/PPNeueMontreal-Book.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.info-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #1e1e1e;
+  color: rgb(0, 0, 0);
+  font-family: 'NeueMontreal', Arial, sans-serif;
+  text-align: center;
+}
+
+.front-cover,
+.back-cover {
+  padding: 2rem;
+  padding-bottom: 6rem;
+  padding-top: 6rem;
+  background-color: #B2AFA3;
+  width: 100%;
+  height: 70vh;
+  max-width: 540px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* Distributes space between elements */
+}
+
+.back-cover {
+  background-color: #F0EFED;
+
+}
+
+/* Style for the buttons inside the cover */
+.cover-button {
+  align-self: center;
+  margin-top: auto;
+  padding: 1rem 1rem;
+  font-size: 12px;
+  cursor: pointer;
+  font-weight: normal;
+  letter-spacing: 2pt;
+  background-color: #000000;
+  color: #f0efed;
+  border: none;
+}
+
+/* General button styles (e.g., for App.js button) */
+button {
+  padding: 1rem 1rem;
+  font-weight: normal;
+  cursor: pointer;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  font-size: 12px;
+}
+
+/* Specific styles for App.js button (to avoid conflicts) */
+.info-button {
+  position: fixed;
+  font-size: 12px;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  letter-spacing: 2pt;
+  padding: 1rem 1rem;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: normal;
+  margin: 2rem 0;
+  text-align: center;
+  letter-spacing: 5pt;
+}
+
+h2 {
+  font-weight: normal;
+  letter-spacing: 2pt;
+  font-size: 24px;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+h3 {
+  font-size: 12px;
+  letter-spacing: 2pt;
+  font-weight: normal;
+  margin: 6rem 0;
+  text-align: center;
+}
+
+p {
+  font-weight: normal;
+  margin: 1rem 0;
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: left;
+  padding: 2rem;
+}
+
+.top-right-link {
+  position: absolute;
+  bottom: 4.5vh;
+  right: 4.5vh;
+  font-size: 12px;
+  text-decoration: none;
+  text-align: right;
+  letter-spacing: 1pt;
+  color: #f0efed;
+  font-family: 'NeueMontreal', Arial, sans-serif;
+  font-weight: bold;
+}
+
+.top-right-link:hover {
+  text-decoration: underline;
+  /* Optional hover effect */
+}
+
+/* Media query for screens smaller than 475px */
+@media (max-width: 475px) {
+
+  .front-cover {
+    width: 100%;
+    height: 100vh;
+    padding: 1rem;
+    box-sizing: border-box;
+    /* Ensure padding is included in width/height */
+  }
+
+  .back-cover {
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+    height: auto;
+  }
+
+  .back-cover .cover-button {
+    margin-top: 70px;
+
+  }
+
+  h1 {
+    font-size: 32px;
+    margin-top: 160px;
+  }
+
+  h2 {
+    font-size: 20px;
+    margin-top: 50vh;
+
+
+  }
+
+  h3 {
+    font-size: 10px;
+    margin-top: 64px;
+
+  }
+
+  p {
+    font-size: 0.9rem;
+    padding: 1rem;
+  }
+
+  .cover-button {
+    font-size: 10px;
+    padding: 0.8rem 1rem;
+    position: relative;
+    bottom: 10vh;
+  }
+
+
+
+  .top-right-link {
+    font-size: 10px;
+    top: 16px;
+    right: 16px;
+    color: #000;
+    font-family: 'NeueMontreal';
+  }
+
+  .info-button {
+    padding: 0.8rem 1rem;
+
+
+  }
+}
