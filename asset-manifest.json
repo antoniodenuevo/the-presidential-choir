@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/the-presidential-choir/static/css/main.f13ac58d.css",
+    "main.js": "/the-presidential-choir/static/js/main.bb0b1702.js",
+    "static/js/453.a7535d98.chunk.js": "/the-presidential-choir/static/js/453.a7535d98.chunk.js",
+    "static/media/presidentialchoirtest.mp3": "/the-presidential-choir/static/media/presidentialchoirtest.85ad10e166249044bffa.mp3",
+    "static/media/PPNeueMontreal-Medium.otf": "/the-presidential-choir/static/media/PPNeueMontreal-Medium.0f34f4714f1b26e0dedc.otf",
+    "static/media/PPNeueMontreal-Book.otf": "/the-presidential-choir/static/media/PPNeueMontreal-Book.cd21cf351f4da50cf75d.otf",
+    "index.html": "/the-presidential-choir/index.html",
+    "main.f13ac58d.css.map": "/the-presidential-choir/static/css/main.f13ac58d.css.map",
+    "main.bb0b1702.js.map": "/the-presidential-choir/static/js/main.bb0b1702.js.map",
+    "453.a7535d98.chunk.js.map": "/the-presidential-choir/static/js/453.a7535d98.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f13ac58d.css",
+    "static/js/main.bb0b1702.js"
+  ]
+}
